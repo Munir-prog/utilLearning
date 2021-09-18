@@ -18,6 +18,9 @@ dependencies {
 //    Logger
     implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.8.0-beta4'
     implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.8.0-beta4'
+//    Spring
+    implementation group: 'org.springframework', name: 'spring-context', version: '5.3.10'
+    implementation group: 'org.springframework', name: 'spring-core', version: '5.3.10'
 
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
