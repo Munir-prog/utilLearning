@@ -1,0 +1,26 @@
+.idea
+*.iml
+out
+.gradle
+build/
+gradle
+gardlew*
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.tar.gz
+*.rar
+target/
+
+#gradle
+gradlew
+gradlew.bat
