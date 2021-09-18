@@ -24,6 +24,11 @@ public class App {
         log.info(mainConfig.getRandom() + "");
         log.info(new MainConfig().getRandom() + "");
 
+
+        mainConfig.doSomeStuff();
+
+        log.info("dangerous: " + mainConfig.getDangerousField());
+
     }
 
     private static void lombokTest(){
