@@ -31,6 +31,9 @@ application {
     mainClass = 'com.mprog.App'
 }
 
+run {
+    standardInput = System.in
+}
 test {
     useJUnitPlatform()
 }
