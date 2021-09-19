@@ -22,6 +22,7 @@ public class ConversationService {
         int x = ioService.nextInt();
         int y = ioService.nextInt();
 
+
         ioService.println(messageService.localize("conversation.arithmetic", x, y, x + y));
     }
 }

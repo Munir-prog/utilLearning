@@ -22,9 +22,14 @@ dependencies {
     implementation group: 'org.springframework', name: 'spring-context', version: '5.3.10'
     implementation group: 'org.springframework', name: 'spring-core', version: '5.3.10'
 
-
+//    Test
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
+    testImplementation group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
+
+    testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.20.2'
+
 }
 
 application {
